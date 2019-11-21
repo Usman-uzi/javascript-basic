@@ -1,9 +1,45 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Its javascript for html</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <meta name="description" content="TechInTalk" />
+    <title>Techintalk</title>
+
+    <link rel="stylesheet" href="./content/styles.css" />
+    <link rel="stylesheet" href="./content/bootstrap.min.css" />
   </head>
   <body>
-    <p>Its javascript for html pages</p>
+    <section>
+      <div class="container">
+        <div class="row justify-content-center">
+          <h2>
+            TechInTalk
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row justify-content-center">
+          <input id="firstNum" type="number" />
+          <input id="secondNum" type="number" />
+          <button onclick="javascript:add()">Add</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <p id="results">The sum is:</p>
+        </div>
+      </div>
+    </section>
+    <script src="./src/caculatorScript.js"></script>
+    <script></script>
   </body>
 </html>
